@@ -1,0 +1,143 @@
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/sproutlings']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [3315] using WatchFiles
+INFO:     Started server process [3353]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:42742 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42742 - "GET /api/meta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42742 - "GET /api/children HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:42748 - "POST /api/children HTTP/1.1" 201 Created
+INFO:     127.0.0.1:42764 - "GET /api/children/1/packets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42748 - "GET /api/children HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42764 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42748 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42748 - "POST /api/worksheets HTTP/1.1" 201 Created
+INFO:     127.0.0.1:42748 - "GET /api/children/1/packets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59354 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42748 - "GET /api/children HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42748 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/meta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/children HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:33694 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/meta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/children HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:33694 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/meta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/children HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:33694 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/meta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/children HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:33694 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/meta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/children HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:33694 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/meta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/children HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:33694 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:33694 - "GET /api/meta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/children HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:33694 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/meta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/children HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:33694 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/meta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/children HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:33694 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/meta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/children HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:33694 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/meta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/children HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:33694 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/meta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/children HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:33694 - "GET /api/children HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38128 - "GET /api/children/1/packets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33694 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38128 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38128 - "GET /api/packets/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38128 - "PATCH /api/packets/1/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56740 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38128 - "GET /api/children/1/packets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38128 - "GET /api/children HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38128 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56752 - "POST /api/worksheets HTTP/1.1" 201 Created
+INFO:     127.0.0.1:56752 - "GET /api/children/1/packets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56752 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56752 - "GET /api/children HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56752 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41874 - "PATCH /api/packets/2/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41874 - "GET /api/children/1/packets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41882 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41874 - "GET /api/children HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41874 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59186 - "GET /api/packets/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39234 - "POST /api/worksheets HTTP/1.1" 201 Created
+INFO:     127.0.0.1:39234 - "GET /api/children/1/packets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39242 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39234 - "GET /api/children HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39234 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52472 - "PATCH /api/packets/3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52472 - "GET /api/children/1/packets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52472 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52472 - "GET /api/children HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52472 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52472 - "PATCH /api/packets/3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52486 - "GET /api/children HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52476 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52472 - "GET /api/children/1/packets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52472 - "GET /api/children/1/stats HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'sproutlings/generators/base.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3353]
+INFO:     Started server process [5077]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.

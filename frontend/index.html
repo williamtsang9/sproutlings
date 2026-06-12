@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sproutlings — fresh worksheets, every time</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-sprout" aria-hidden="true">
+      <svg viewBox="0 0 24 24" width="26" height="26"><path d="M12 21v-8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M12 13C12 9 9 7 4 7c0 5 3 7 8 6z" fill="currentColor" opacity=".85"/><path d="M12 11c0-4 3-6 8-6 0 5-3 7-8 6z" fill="currentColor"/></svg>
+    </span>
+    <h1>Sproutlings</h1>
+    <span class="tagline">fresh worksheets, every time</span>
+  </div>
+  <span class="model-chip" id="model-chip" title="Local model serving generations"></span>
+</header>
+
+<main class="layout">
+  <!-- ============ left: children ============ -->
+  <aside class="sidebar">
+    <h2 class="panel-label">Children</h2>
+    <div id="child-list" class="child-list"></div>
+
+    <form id="add-child" class="add-child" autocomplete="off">
+      <h3>Add a child</h3>
+      <label>Name <input name="name" required maxlength="60" placeholder="Jon"></label>
+      <div class="row">
+        <label>Age <input name="age" type="number" min="1" max="25" required value="6"></label>
+        <label>Grade <select name="default_grade" id="add-grade"></select></label>
+      </div>
+      <button type="submit" class="btn btn-primary">Add child</button>
+    </form>
+  </aside>
+
+  <!-- ============ center: generate + history ============ -->
+  <section class="workbench">
+    <div class="card generator-card">
+      <h2 class="panel-label">Generate</h2>
+      <div class="gen-tabs" role="tablist">
+        <button class="gen-tab active" data-mode="worksheet" role="tab">Worksheet packet</button>
+        <button class="gen-tab" data-mode="test" role="tab">Test packet</button>
+      </div>
+
+      <div class="selectors">
+        <label>Grade <select id="sel-grade"></select></label>
+        <label id="field-single-wrap">Field <select id="sel-field"></select></label>
+        <fieldset id="field-multi-wrap" class="hidden">
+          <legend>Fields in this test</legend>
+          <div id="field-checks" class="checks"></div>
+        </fieldset>
+        <label>Level <select id="sel-level"></select></label>
+        <label id="qcount-wrap" class="hidden">Questions
+          <input id="sel-qcount" type="number" min="4" max="60" value="20">
+        </label>
+      </div>
+
+      <button id="btn-generate" class="btn btn-primary btn-big" disabled>
+        Select a child to begin
+      </button>
+      <p id="gen-status" class="gen-status" role="status"></p>
+    </div>
+
+    <div class="card">
+      <h2 class="panel-label">Packet history</h2>
+      <div id="stats" class="stats"></div>
+      <table class="history" id="history">
+        <thead><tr>
+          <th>#</th><th>Kind</th><th>Field</th><th>Grade</th><th>Level</th>
+          <th>Status</th><th></th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="empty hidden" id="history-empty">No packets yet — generate the first one above.</p>
+    </div>
+  </section>
+</main>
+
+<!-- ============ packet viewer / print ============ -->
+<div id="viewer" class="viewer hidden">
+  <div class="viewer-bar no-print">
+    <button class="btn" id="btn-close-viewer">← Back</button>
+    <div class="viewer-actions">
+      <span id="viewer-status-chip" class="status-chip"></span>
+      <button class="btn" id="btn-approve">Approve</button>
+      <button class="btn" id="btn-complete">Mark completed</button>
+      <button class="btn" id="btn-score">Record test score</button>
+      <label class="answers-toggle"><input type="checkbox" id="chk-answers"> Show answer key</label>
+      <button class="btn btn-primary" id="btn-print">Print</button>
+    </div>
+  </div>
+  <div id="viewer-pages"></div>
+</div>
+
+<!-- score dialog -->
+<dialog id="score-dialog">
+  <form method="dialog" id="score-form">
+    <h3>Record test score</h3>
+    <p class="muted">Enter correct / total per field. Future packets will focus on the weaker fields.</p>
+    <div id="score-rows"></div>
+    <div class="dialog-actions">
+      <button value="cancel" class="btn">Cancel</button>
+      <button value="save" class="btn btn-primary" id="btn-save-score">Save</button>
+    </div>
+  </form>
+</dialog>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
